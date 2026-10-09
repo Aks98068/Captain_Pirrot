@@ -1,0 +1,440 @@
+{
+  "_note": "SAMPLE DATA - replace the team members, usernames, links and education with your real details, then run: npm run db:setup",
+  "team": [
+    {
+      "slug": "captain-pirrot",
+      "name": "Captain Pirrot",
+      "initials": "CP",
+      "role": "FOUNDER / SECURITY RESEARCHER",
+      "bio": "Application security, forensics, and open-source engineering.",
+      "about": "Captain Pirrot started the collective as a personal research archive of CTF notes and web security studies, and still leads the research agenda.\n\nDay to day the work sits between application security and digital forensics: building small tools, writing up what failed, and publishing the evidence behind every claim.",
+      "location": "Remote",
+      "email": null,
+      "avatarUrl": null,
+      "githubUsername": "captain-pirrot",
+      "githubUrl": "https://github.com/captain-pirrot",
+      "linkedinUrl": "https://www.linkedin.com/in/captain-pirrot",
+      "skills": [
+        "Application Security",
+        "Digital Forensics",
+        "Go",
+        "TypeScript",
+        "Python",
+        "Threat Modelling"
+      ],
+      "certifications": [
+        {
+          "name": "CompTIA Security+",
+          "issuer": "CompTIA",
+          "year": 2021
+        },
+        {
+          "name": "GIAC Certified Forensic Examiner",
+          "issuer": "GIAC",
+          "year": 2023
+        }
+      ],
+      "education": [
+        {
+          "degree": "MSc",
+          "field": "Digital Forensics",
+          "institution": "Sample University — School of Computing",
+          "startYear": 2022,
+          "endYear": 2023,
+          "grade": "Distinction",
+          "description": "Dissertation on evidence integrity and chain-of-custody tooling for small response teams."
+        },
+        {
+          "degree": "BSc (Hons)",
+          "field": "Computer Security",
+          "institution": "Sample University — School of Computing",
+          "startYear": 2018,
+          "endYear": 2021,
+          "grade": "First Class",
+          "description": "Core modules in secure software development, networks, and cryptography."
+        }
+      ],
+      "repos": [
+        {
+          "name": "zebra",
+          "description": "A modular attack-surface mapper for observable services, assets, and trust relationships.",
+          "language": "TypeScript",
+          "topics": [
+            "attack-surface",
+            "graph",
+            "recon"
+          ],
+          "url": "https://github.com/captain-pirrot/zebra",
+          "stars": null,
+          "forks": null,
+          "updatedAt": null
+        },
+        {
+          "name": "trace-evidence",
+          "description": "Evidence intake, hashing, chain-of-custody, and collaborative forensic review.",
+          "language": "Python",
+          "topics": [
+            "forensics",
+            "mysql",
+            "chain-of-custody"
+          ],
+          "url": "https://github.com/captain-pirrot/trace-evidence",
+          "stars": null,
+          "forks": null,
+          "updatedAt": null
+        }
+      ],
+      "sortOrder": 1
+    },
+    {
+      "slug": "a-nox",
+      "name": "A. Nox",
+      "initials": "AN",
+      "role": "REVERSE ENGINEERING",
+      "bio": "Binary analysis, exploit development, and systems research.",
+      "about": "A. Nox focuses on understanding what optimised binaries actually do. Most of the collective's reverse engineering and memory-corruption writeups start in A. Nox's notes.\n\nOutside research, A. Nox mentors newer CTF players and maintains the network telemetry tooling.",
+      "location": "Remote",
+      "email": null,
+      "avatarUrl": null,
+      "githubUsername": "a-nox",
+      "githubUrl": "https://github.com/a-nox",
+      "linkedinUrl": "https://www.linkedin.com/in/a-nox",
+      "skills": [
+        "Reverse Engineering",
+        "Exploit Development",
+        "C / C++",
+        "Go",
+        "Assembly (x86-64)",
+        "GDB / Ghidra"
+      ],
+      "certifications": [
+        {
+          "name": "Offensive Security Certified Professional",
+          "issuer": "OffSec",
+          "year": 2022
+        }
+      ],
+      "education": [
+        {
+          "degree": "Diploma",
+          "field": "Reverse Engineering & Malware Analysis",
+          "institution": "Sample Security Academy",
+          "startYear": 2021,
+          "endYear": 2021,
+          "grade": "Pass with merit",
+          "description": "Intensive professional programme on static and dynamic analysis."
+        },
+        {
+          "degree": "BSc",
+          "field": "Computer Science",
+          "institution": "Sample University — Faculty of Science",
+          "startYear": 2017,
+          "endYear": 2020,
+          "grade": "Upper Second Class",
+          "description": "Operating systems, compilers, and computer architecture."
+        }
+      ],
+      "repos": [
+        {
+          "name": "spectra",
+          "description": "A quiet network telemetry workbench built for analysts, educators, and small research teams.",
+          "language": "Go",
+          "topics": [
+            "pcap",
+            "wasm",
+            "telemetry"
+          ],
+          "url": "https://github.com/a-nox/spectra",
+          "stars": null,
+          "forks": null,
+          "updatedAt": null
+        },
+        {
+          "name": "reverse-notes",
+          "description": "Working notes and small crackmes from binary analysis practice.",
+          "language": "C",
+          "topics": [
+            "reverse-engineering",
+            "notes"
+          ],
+          "url": "https://github.com/a-nox/reverse-notes",
+          "stars": null,
+          "forks": null,
+          "updatedAt": null
+        }
+      ],
+      "sortOrder": 2
+    },
+    {
+      "slug": "m-reed",
+      "name": "M. Reed",
+      "initials": "MR",
+      "role": "SECURITY ENGINEERING",
+      "bio": "Detection, cloud infrastructure, and platform security.",
+      "about": "M. Reed builds the detection and platform side of the collective: gateways, policy engines, and the pipelines that keep research infrastructure honest.\n\nThe focus is on controls whose ownership is explicit and whose failure is observable.",
+      "location": "Remote",
+      "email": null,
+      "avatarUrl": null,
+      "githubUsername": "m-reed",
+      "githubUrl": "https://github.com/m-reed",
+      "linkedinUrl": "https://www.linkedin.com/in/m-reed",
+      "skills": [
+        "Cloud Security",
+        "Detection Engineering",
+        "Rust",
+        "Docker",
+        "Open Policy Agent",
+        "Linux"
+      ],
+      "certifications": [
+        {
+          "name": "AWS Certified Security — Specialty",
+          "issuer": "Amazon Web Services",
+          "year": 2023
+        }
+      ],
+      "education": [
+        {
+          "degree": "MSc",
+          "field": "Cloud Security",
+          "institution": "Sample University — School of Engineering",
+          "startYear": 2021,
+          "endYear": 2022,
+          "grade": "Merit",
+          "description": "Identity, workload isolation, and incident response in cloud environments."
+        },
+        {
+          "degree": "BEng",
+          "field": "Software Engineering",
+          "institution": "Sample University — School of Engineering",
+          "startYear": 2016,
+          "endYear": 2020,
+          "grade": "Upper Second Class",
+          "description": "Distributed systems, databases, and software architecture."
+        }
+      ],
+      "repos": [
+        {
+          "name": "northstar-gateway",
+          "description": "Policy-first application gateway with transparent audit trails and precise access controls.",
+          "language": "Rust",
+          "topics": [
+            "gateway",
+            "opa",
+            "audit"
+          ],
+          "url": "https://github.com/m-reed/northstar-gateway",
+          "stars": null,
+          "forks": null,
+          "updatedAt": null
+        },
+        {
+          "name": "dns-watch",
+          "description": "Low-noise behavioural indicators for conventional and encrypted DNS.",
+          "language": "Go",
+          "topics": [
+            "dns",
+            "detection"
+          ],
+          "url": "https://github.com/m-reed/dns-watch",
+          "stars": null,
+          "forks": null,
+          "updatedAt": null
+        }
+      ],
+      "sortOrder": 3
+    },
+    {
+      "slug": "s-vale",
+      "name": "S. Vale",
+      "initials": "SV",
+      "role": "WEB SECURITY / TECHNICAL WRITING",
+      "bio": "Session security, web assessment, and clear technical writing.",
+      "about": "S. Vale studies how sessions, tokens, and trust boundaries fail in real web applications, and writes most of the collective's learning material.\n\nCurrently completing a master's degree while contributing writeups and field guides.",
+      "location": "Remote",
+      "email": null,
+      "avatarUrl": null,
+      "githubUsername": "s-vale",
+      "githubUrl": "https://github.com/s-vale",
+      "linkedinUrl": "https://www.linkedin.com/in/s-vale",
+      "skills": [
+        "Web Security",
+        "OAuth / OIDC",
+        "Technical Writing",
+        "JavaScript",
+        "Burp Suite",
+        "Python"
+      ],
+      "certifications": [
+        {
+          "name": "eLearnSecurity Junior Penetration Tester",
+          "issuer": "INE",
+          "year": 2024
+        }
+      ],
+      "education": [
+        {
+          "degree": "MSc",
+          "field": "Cybersecurity",
+          "institution": "Sample University — School of Computing",
+          "startYear": 2023,
+          "endYear": null,
+          "grade": "In progress",
+          "description": "Research focus on session management and token rotation in distributed applications."
+        },
+        {
+          "degree": "BSc",
+          "field": "Information Technology",
+          "institution": "Sample University — Faculty of Science",
+          "startYear": 2019,
+          "endYear": 2022,
+          "grade": "Upper Second Class",
+          "description": "Web development, networking fundamentals, and information security."
+        }
+      ],
+      "repos": [
+        {
+          "name": "sessionlab",
+          "description": "A small lab for experimenting with session invalidation and token rotation patterns.",
+          "language": "TypeScript",
+          "topics": [
+            "sessions",
+            "oauth",
+            "lab"
+          ],
+          "url": "https://github.com/s-vale/sessionlab",
+          "stars": null,
+          "forks": null,
+          "updatedAt": null
+        },
+        {
+          "name": "ctf-notes",
+          "description": "Public notes and writeups from CTF practice, organised by category.",
+          "language": "Markdown",
+          "topics": [
+            "ctf",
+            "writeups"
+          ],
+          "url": "https://github.com/s-vale/ctf-notes",
+          "stars": null,
+          "forks": null,
+          "updatedAt": null
+        }
+      ],
+      "sortOrder": 4
+    }
+  ],
+  "blog": [
+    {
+      "slug": "publish-failed-experiments",
+      "title": "Why We Publish the Failed Experiments",
+      "category": "Community",
+      "authorSlug": "captain-pirrot",
+      "publishedAt": "2026-06-26",
+      "tags": [
+        "Culture",
+        "Research"
+      ],
+      "excerpt": "Research is not a highlight reel. Our notes, dead ends, and revisions are part of the work.",
+      "content": "Most security research is presented as a straight line: a question, a clever idea, a result. That is rarely how the work actually goes.\n\n## What a dead end tells you\n\nA failed experiment still carries information. It tells the next person which assumption did not hold, which tool misled us, and how much time a path really costs. When we hide those results, the same mistakes get repeated by people who had no way to know.\n\n## What we publish\n\nFor every research item we keep the original scope, the notes that led nowhere, and the revisions that changed our conclusion. Not every note is polished, but each one is dated and kept.\n\n> The useful result is not only that something worked, but a precise account of why the other attempts did not.\n\n## What we do not publish\n\nAnything that would put a third party at risk stays private until the affected party has had a fair chance to respond. Publishing failures is about honesty with the community, not about disclosure shortcuts."
+    },
+    {
+      "slug": "building-zebra",
+      "title": "Building Zebra in Public",
+      "category": "Development",
+      "authorSlug": "captain-pirrot",
+      "publishedAt": "2026-06-10",
+      "tags": [
+        "Open Source",
+        "Zebra"
+      ],
+      "excerpt": "Architecture decisions, broken assumptions, and the next stage of our mapping toolkit.",
+      "content": "Zebra started as a weekend script that listed the services visible from a single domain. It is now a modular attack-surface mapper, and most of what changed along the way was a correction to an early assumption.\n\n## The first assumption: assets are a list\n\nOur first version stored findings as a flat list. That broke as soon as two assets shared a certificate or a network. Moving to a graph model made trust relationships first-class, and made the questions we actually wanted to ask much easier to express.\n\n## Modules over features\n\nEach data source is now a small module with a clear input and output:\n\n- a collector that gathers observable data\n- a normaliser that maps it into the shared graph\n- an optional enricher that adds context\n\n```ts\nexport interface Collector {\n  name: string;\n  collect(target: Target): AsyncIterable<Observation>;\n}\n```\n\n## What is next\n\nBetter provenance for every edge in the graph, so a reader can see where each claim came from and how recent it is."
+    },
+    {
+      "slug": "small-collective",
+      "title": "A Small Collective, Deliberately",
+      "category": "Announcements",
+      "authorSlug": "m-reed",
+      "publishedAt": "2026-05-19",
+      "tags": [
+        "Collective"
+      ],
+      "excerpt": "How independence shapes our research agenda, partnerships, and publishing model.",
+      "content": "Captain Pirrot is a small group on purpose. Being small lets us follow a question for months without a roadmap deciding the answer in advance.\n\n## Independence\n\nWe do not take work that requires a particular conclusion. When we collaborate with organisations or open-source communities, the scope and publishing terms are agreed up front.\n\n## How decisions are made\n\n- Research direction is set by the people doing the research.\n- Publication follows a short internal review for accuracy and responsible disclosure.\n- Anything we build in public is licensed so others can reuse it.\n\n## Who we are looking for\n\nNot a headcount target. If your work and ours overlap, get in touch through the contact page with context about what you are working on."
+    },
+    {
+      "slug": "responsible-disclosure-process",
+      "title": "How We Handle Responsible Disclosure",
+      "category": "Announcements",
+      "authorSlug": "s-vale",
+      "publishedAt": "2026-07-14",
+      "tags": [
+        "Disclosure",
+        "Process"
+      ],
+      "excerpt": "The steps we follow from first finding to public writeup, and the timelines we hold ourselves to.",
+      "content": "Finding a vulnerability is the easy part. Handling it well is what decides whether the finding makes anything safer.\n\n## The steps\n\n- Confirm the issue is real and reproducible in a controlled environment.\n- Identify the right contact. A security.txt file or a published policy is ideal.\n- Send a clear report: what we found, how to reproduce it, and what we think the impact is.\n- Agree a reasonable timeline, then keep the vendor informed.\n\n## Timelines\n\nWe acknowledge incoming reports within 48 hours and aim to agree a disclosure window with the affected party in the first conversation. If a vendor is working in good faith, we will extend that window rather than publish early.\n\n## What we never do\n\nWe do not access data beyond what is needed to prove the issue, and we do not publish exploit details that would put users at risk before a fix is available."
+    },
+    {
+      "slug": "reading-packet-captures-slowly",
+      "title": "Learning Notes: Reading Packet Captures Slowly",
+      "category": "Learning",
+      "authorSlug": "a-nox",
+      "publishedAt": "2026-08-03",
+      "tags": [
+        "Networking",
+        "Learning",
+        "PCAP"
+      ],
+      "excerpt": "A beginner-friendly routine for getting real value out of a packet capture without drowning in packets.",
+      "content": "The first time you open a capture with fifty thousand packets, it is tempting to scroll. A routine works better.\n\n## Start with the shape\n\nBefore looking at any single packet, look at the conversation summary. Which hosts talk the most? Which protocols appear? What is missing that you expected to see?\n\n## Then pick one conversation\n\nFollow a single stream from start to finish. Read the handshake, note the timing, and write down anything that surprises you.\n\n```text\n1. Statistics -> Conversations\n2. Sort by bytes, pick the top talker\n3. Follow the stream, read it end to end\n4. Write down one question, then filter to answer it\n```\n\n## Keep a notebook\n\nThe goal is not to memorise protocols, it is to build a habit of asking one specific question at a time. Our notes from this approach feed directly into the Spectra project."
+    },
+    {
+      "slug": "first-ctf-as-a-team",
+      "title": "Notes from Our First CTF as a Team",
+      "category": "Community",
+      "authorSlug": "s-vale",
+      "publishedAt": "2026-09-02",
+      "tags": [
+        "CTF",
+        "Teamwork"
+      ],
+      "excerpt": "What worked, what did not, and how we plan to split work differently next time.",
+      "content": "Playing a CTF alone and playing as a team are different skills. Our first event together taught us that quickly.\n\n## What worked\n\nSplitting challenges by category let each person go deep. Keeping a shared notes document meant nobody solved the same dead end twice.\n\n## What did not\n\nWe had no agreed way to hand a half-solved challenge to someone else. Several flags were lost to partial notes that only made sense to their author.\n\n## What we are changing\n\n- A short template for handing off a challenge: what is known, what was tried, and what to try next.\n- A rotating person whose only job is to watch the scoreboard and unblock others.\n- A post-event writeup for every challenge we solved, and for the ones we did not."
+    }
+  ],
+  "contact": [
+    {
+      "label": "GENERAL",
+      "value": "hello@captainpirrot.org",
+      "href": "mailto:hello@captainpirrot.org",
+      "icon": "mail"
+    },
+    {
+      "label": "SECURITY",
+      "value": "security@captainpirrot.org",
+      "href": "mailto:security@captainpirrot.org",
+      "icon": "mail"
+    },
+    {
+      "label": "GITHUB",
+      "value": "github.com/captain-pirrot",
+      "href": "https://github.com/captain-pirrot",
+      "icon": "github"
+    },
+    {
+      "label": "LINKEDIN",
+      "value": "Captain Pirrot",
+      "href": "https://www.linkedin.com/company/captain-pirrot",
+      "icon": "linkedin"
+    }
+  ],
+  "settings": {
+    "contact_response": "Security reports are acknowledged within 48 hours. General messages are typically answered within five working days.",
+    "contact_intro": "For research collaboration, responsible disclosure, project work, or community questions. We read every well-scoped message.",
+    "github_org_url": "https://github.com/captain-pirrot",
+    "linkedin_url": "https://www.linkedin.com/company/captain-pirrot",
+    "general_email": "hello@captainpirrot.org"
+  }
+}
